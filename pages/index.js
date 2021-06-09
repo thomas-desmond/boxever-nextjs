@@ -9,6 +9,7 @@ export default function Home() {
   }
 
   function sendViewEvent() {
+      console.log(BoxeverrID, window.Boxever.getID())
       var searchEvent = {
           "browser_id": window.Boxever.getID(),
           "browserId": window.Boxever.getID(),
