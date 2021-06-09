@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
     boxeverLibraryScriptElement.type = "text/javascript";
     boxeverLibraryScriptElement.src = "https://d1mj578wat5n4o.cloudfront.net/boxever-1.4.1.js";
     document.getElementsByTagName('head')[0].append(boxeverLibraryScriptElement);
-  })
+  }, [])
 
   return <Component {...pageProps} />
 }
