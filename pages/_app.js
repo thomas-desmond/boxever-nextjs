@@ -1,10 +1,8 @@
 import '../styles/globals.css'
-import next from "next";
 import { useEffect } from 'react'
 
 
 function MyApp({ Component, pageProps }) {
-  next({});
 
   useEffect(() => {
     const boxever_client_key = process.env.NEXT_PUBLIC_BOXEVER_KEY;
